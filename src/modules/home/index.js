@@ -12,7 +12,7 @@ import Footer from "./features/footer";
 export default function Home() {
   return (
     <div className="">
-      <Hero />
+      {/* <Hero /> */}
 
       <div className="max-w-[1440px] mx-auto">
         <Network />
