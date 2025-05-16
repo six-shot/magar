@@ -4,33 +4,25 @@ import Navbar from "../navbar";
 import Button from "../../compenents/buttons/Button";
 import { Link } from "react-router-dom";
 
-
-
 export default function Hero() {
   return (
-    <div className="relative w-full h-[100vh]" id="home">
-      {/* <Spline
-        className="absolute  left-0 w-full h-full z-10"
-        scene="https://prod.spline.design/HXtrvfpheoREhBFV/scene.splinecode"
-      /> */}
-      <div className="absolute top-0 left-0 z-20 w-full">
-        <Navbar />
-      </div>
-      <div className="absolute inset-0 bg-transparent h-[90vh] mt-[10vh] opacity-70 z-[10] "></div>
-      <div className="max-w-[1440px] mx-auto ">
-        <div className=" absolute bottom-[15%]  z-[10] px-[5%] ">
-          <h1 className="text-white  font-bold text-[45px] leading-[50px]  ">
-            Simplifying Crypto <br />
-            Transactions
-          </h1>
-          <p className="text-white font-medium sm:text-lg text-base  sm:w-[500px]  w-full mt-[3%] mb-4">
-            An ERC-4337 toolkit enhancing gasless transactions, social login,
-            multichain support and much more making DeFi accessibile and secure.
-          </p>
-          <Link to="https://magmar-1.gitbook.io/magmar">
-            <Button text="Enter Dapp" />
-          </Link>
+    <div className="relative h-screen ">
+      <div className="w-full">
+        <div className="absolute top-[250px] w-full z-10 text-center pointer-events-none">
+          <div className="w-full h-[848px] relative -top-[170px] flex justify-center items-center">
+            <h1 className="absolute bottom-[350px] md:text-[160px] text-[60px] -z-10 font-semibold hero-text text-center">
+              Personalized <br /> Experience
+            </h1>
+          </div>
         </div>
+
+        <iframe
+          src="https://my.spline.design/newton39scradle-bFSdhC7jVplvT8X38oHE4lnd/"
+          frameBorder="0"
+          width="100%"
+          height="100%"
+          className="absolute z-0"
+        ></iframe>
       </div>
     </div>
   );
