@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="absolute top-0 left-0 z-20 w-full">
         <Navbar />
       </div>
-      <div className="absolute inset-0 bg-transparent h-[90vh] mt-[10vh] opacity-70 z-[10] "></div>
+      {/* <div className="absolute inset-0 bg-transparent h-[90vh] mt-[10vh] opacity-70 z-[10] "></div>
       <div className="max-w-[1440px] mx-auto ">
         <div className=" absolute bottom-[15%]  z-[10] px-[5%] ">
           <h1 className="text-white  font-bold text-[45px] leading-[50px]  ">
@@ -31,7 +31,7 @@ export default function Hero() {
             <Button text="Enter Dapp" />
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
