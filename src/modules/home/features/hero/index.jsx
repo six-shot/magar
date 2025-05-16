@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className="relative h-screen  ">
-      <div className="absolute bottom-[15%] w-full z-10 h-full pointer-events-none px-[5%]">
-        <div className="w-full h-full flex flex-col justify-end pb-8">
+    <div className="relative h-screen ">
+      <div className="absolute bottom-[15%] w-full z-10 h-full pointer-events-none  ">
+        <div className="w-full h-full flex flex-col justify-end pb-8 max-w-[1440px] mx-auto px-[5%]">
           <h1 className="text-white font-bold text-[45px] leading-[50px]">
             Simplifying Crypto <br />
             Transactions
@@ -19,11 +19,11 @@ export default function Hero() {
           </p>
         </div>
       </div>
-
-      <Spline
+      {/* <Spline
         className="absolute  z-0"
         scene="https://prod.spline.design/HXtrvfpheoREhBFV/scene.splinecode"
-      /> */
+      />{" "} */}
+      */
     </div>
   );
 }

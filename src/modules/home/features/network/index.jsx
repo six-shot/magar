@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 export default function Network() {
   return (
     <div>
-      <div className="sm:flex   mt-[2%] justify-center items-center flex-col pt-[3%] px-[5%]">
+      <div className="sm:flex  mt-[2%] justify-center items-center flex-col pt-[3%] px-[5%]">
         <h5 className="text-white/50 text-center sm:text-base text-sm">
           Powering the next generation of builders
         </h5>

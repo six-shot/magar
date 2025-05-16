@@ -1,5 +1,5 @@
-import React from 'react'
-import { projects } from '../../data';
+import React from "react";
+import { projects } from "../../data";
 import Card from "../../compenents/cards/index";
 import { useScroll } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -23,7 +23,11 @@ export default function Offers() {
     requestAnimationFrame(raf);
   });
   return (
-    <main ref={container} className="relative flex items-center justify-center flex-col  -mt-[10%] px-[5%]" id="offers">
+    <main
+      ref={container}
+      className="relative flex items-center justify-center flex-col  -mt-[10%] px-[5%]"
+      id="offers"
+    >
       {projects.map((project, i) => {
         const targetScale = 1 - (projects.length - i) * 0.05;
         return (

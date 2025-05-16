@@ -22,7 +22,7 @@ export default function Portfolio() {
             src={dashboard}
             className="sm:h-[600px]   border border-red-500 rounded-[25px]"
             alt="dashboard"
-            loading="lazy"
+            
           />
         </div>
       </div>
